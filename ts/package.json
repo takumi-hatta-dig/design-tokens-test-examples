@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "tsx index.ts"
+    },
+    "dependencies": {
+        "@takumi-hatta/design-tokens-test": "^0.0.1",
+        "tsx": "^3.12.3"
+    }
+}

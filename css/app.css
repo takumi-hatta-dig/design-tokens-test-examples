@@ -1,0 +1,65 @@
+@import url("node_modules/@takumi-hatta/design-tokens-test/dist/tokens.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 64px);
+    grid-auto-rows: 64px;
+    gap: 16px;
+}
+
+.item--sea50 {
+    background-color: var(--sea-50);
+}
+
+.item--sea100 {
+    background-color: var(--sea-100);
+}
+
+.item--sea200 {
+    background-color: var(--sea-200);
+}
+
+.item--sea300 {
+    background-color: var(--sea-300);
+}
+
+.item--sea400 {
+    background-color: var(--sea-400);
+}
+
+.item--sea500 {
+    background-color: var(--sea-500);
+}
+
+.item--sea600 {
+    background-color: var(--sea-600-primary);
+}
+
+.item--sea700 {
+    background-color: var(--sea-700);
+}
+
+.item--sea800 {
+    background-color: var(--sea-800);
+}
+
+.item--sea900 {
+    background-color: var(--sea-900);
+}
+
+.background--primary {
+    background-color: var(--light-background-primary);
+}
+
+.background--secondary {
+    background-color: var(--light-background-secondary);
+}
+
+.background--tertiary {
+    background-color: var(--light-background-tertiary);
+}

@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "sass": "sass app.scss app.css --no-source-map"
+    },
+    "dependencies": {
+        "@takumi-hatta/design-tokens-test": "^0.0.1",
+        "sass": "^1.58.3"
+    }
+}
